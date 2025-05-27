@@ -1,0 +1,64 @@
+# Print String
+print("Hello")
+#---------------
+
+#Assign string to a variable
+a= "Hello"
+print(a)
+#---------------
+
+#Print multiline string with using three quotes
+a= """ I am channvee Mathpathi, I am post graduate, I have 8 yrs experience"""
+print(a)
+
+#Print multiline string with using two quotes
+a='''I am channvee Mathpathi, I am post graduate, I have 8 yrs experience'''
+print(a)
+#------------------
+
+#Am is present in the text or not
+x= "I am channveer Mathpahi"
+print("am" in x)
+#------------------
+
+# print the length of the string
+a= "Hello World"
+print(len(a))
+#-------------------
+
+# Program to Get the character at position 1
+a="Channveer"
+print(a[1])
+#-------------------
+
+#Loop through the letters in the word "Channveer":
+for x in "Channveer":
+    print(x)
+#-------------------
+
+# Print the text is present in the content or not
+text= "I am channveer, From Global office Bangalore"
+if "From" in text:
+ print("Yes, 'From' is present")
+#-------------------
+
+#What will be the result of the following code:
+text="Channveer"
+print(text[3:6])
+Output: nnv
+
+#-------------------
+# Get the characters from index 2 to index 4 (llo).
+txt= "Hello, World"
+print(txt[2:5])
+#Output: llo
+
+#-------------------
+# What will be the result of the following code:
+x = 'Welcome'
+print(x[3:])
+
+#-------------------
+# Get the characters from the start to position 5 (not included):
+b = "Hello, World!"
+print(b[:5])
