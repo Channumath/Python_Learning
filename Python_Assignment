@@ -1,0 +1,48 @@
+# 1. Write a program to check if a number is positive, negative, or zero.
+
+x=float(input("Enter the Number:"))
+if(x>0):
+    print(f"Entered {x} is postive")
+elif (x<0):
+    print(f"Entered {x} Negative")
+else:
+    print(f"Entered {x} Zero")
+
+###########################################################################################################
+
+2. Take a number input from the user and print whether it is even or odd.
+
+i= int(input("Enter the Number:"))
+print(i)
+if i%2==0:
+    print(f"Entered {i} number is Even number")
+else:
+    print(f"Entered {i} number is Odd number")
+
+###########################################################################################################
+
+# 3. Write a program to check if a person is eligible to vote (age ≥ 18).
+import time
+ages=[10,23,42,18,16,64]
+print(ages)
+for age in ages:
+    time.sleep(2)
+    if age>=18:
+        print(f"{age} is Eligbile")
+    else:
+        print(f"{age} not Eligbile")
+
+###########################################################################################################
+
+# 4. Find the greatest among three numbers using if-else.
+import time
+def x(a,b,c):
+    print(a,b,c)
+    time.sleep(2)
+    if a>b and a>c:
+        print(f"Value of {a} is greater")
+    elif b>a and b>c:
+        print(f"Value of {b} is greater")
+    else:
+        print(f"Value of {c} is greater")
+print(x(10,40,30))
