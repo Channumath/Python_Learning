@@ -46,3 +46,20 @@ def x(a,b,c):
     else:
         print(f"Value of {c} is greater")
 print(x(10,40,30))
+
+
+###########################################################################################################
+
+5. Check if a given year is a leap year or not.
+
+import calendar
+def a(b):
+    print(b)
+    return calendar.isleap(b)
+    
+b=2000
+if(a(b)):
+    print(f"{b} is a leap year")
+else:
+    print(f"{b} is not a leap year")
+
