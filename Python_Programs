@@ -1,0 +1,91 @@
+If Else Logic:
+
+1. Write a program to check if a number is positive, negative, or zero.
+
+2. Take a number input from the user and print whether it is even or odd.
+
+3. Write a program to check if a person is eligible to vote (age ≥ 18).
+
+4. Find the greatest among three numbers using if-else.
+
+5. Check if a given year is a leap year or not.
+
+6. Write a program to check if a character is a vowel or consonant.
+
+7. Write a program that takes a mark (0–100) and prints the grade: A, B, C, D, F.
+
+8. Check if a number is divisible by both 5 and 7.
+
+9. Write a program to determine if a triangle is equilateral, isosceles, or scalene.
+
+10. Write a program that checks if a string is a palindrome using if-else.
+For Loop:
+
+1. Print numbers from 1 to 10 using a for loop.
+
+2. Print all even numbers from 1 to 100.
+
+3. Calculate the sum of numbers from 1 to n (take n as input).
+
+4. Print the multiplication table of a number (take input).
+
+5. Print all elements of a list using a for loop.
+
+6. Count how many vowels are in a string.
+
+7. Write a program to print the factorial of a number using a for loop.
+
+8. Generate a pattern like:
+
+*
+
+**
+
+***
+
+9. Create a program that prints Fibonacci series up to n terms using a for loop.
+
+10. Given a list of numbers, print only the prime numbers using a for loop.
+While Loop:
+
+1. Print numbers from 1 to 10 using a while loop.
+
+2. Calculate the sum of digits of a number using while loop.
+
+3. Find the reverse of a number using while loop.
+
+4. Keep asking the user for input until they type "exit".
+
+5. Count the number of digits in a number.
+
+6. Write a program to check if a number is a palindrome using while loop.
+
+7. Generate Fibonacci series using while loop (n terms).
+
+8. Use while loop to guess a number (number guessing game).
+
+9. Print all powers of 2 less than 1000 using while loop.
+
+10. Keep taking marks input until the user enters a negative number; calculate average marks.
+User Defined Functions:
+
+1. Write a function to add two numbers.
+
+2. Write a function to check if a number is even or odd.
+
+3. Write a function that returns the factorial of a number.
+
+4. Create a function that checks if a string is a palindrome.
+
+5. Write a function to find the largest of three numbers.
+
+6. Define a function to generate Fibonacci series up to n terms.
+
+7. Write a function to count the number of vowels in a string.
+
+8. Write a function that checks whether a number is prime.
+
+9. Write a function to reverse a string without using slicing.
+
+10. Write a function that takes a list of numbers and returns a new list with only the even numbers.
+ 
