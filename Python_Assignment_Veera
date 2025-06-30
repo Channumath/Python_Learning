@@ -1,1 +1,40 @@
+'''1.Print numbers from 1 to 10.
 
+2.Print the multiplication table of a given number (e.g., 7).
+
+3.Print all even numbers between 1 and 50.
+
+4.Calculate the sum of numbers from 1 to 100.
+
+5.Reverse a given string using a loop.
+
+6.Check if a number is prime using a loop
+
+7.Count the number of vowels in a given string
+
+8.Find the largest number in a list using a loop
+
+9.Calculate the average grade from a list of student scores
+
+10.Count how many students passed (score ≥ 40) and failed
+
+11.Assign letter grades based on score ranges using a loop:
+
+A: 90–100
+
+B: 80–89
+
+C: 70–79
+
+D: 60–69
+
+F: <60
+
+12.Find how many students scored above the class average
+
+13.Find the highest and lowest grade in a list
+
+14.Write a function calculate_average(grades) that takes a list of grades and returns the average
+
+15.Write a function count_pass_fail(grades) that returns how many students passed (score ≥ 40) and how many failed
+ '''
