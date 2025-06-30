@@ -39,14 +39,50 @@ print(r)
 
 
 6.Check if a number is prime using a loop
+if num>1:
+    for i in range(2,num):
+        if num%i==0:
+            print("Given number is Not Prime number")
+            break
+    else:
+         print("Given number is Prime number")
+else:
+    print("Not Prime")
 
-
+#####################
 
 7.Count the number of vowels in a given string
+count=0
+c="Channveer Mathpathi"
+vowels="aeiouAEIOU"
+for char in c:
+   if char in vowels:
+        count+=1
+print(count)
+
+#####################
 
 8.Find the largest number in a list using a loop
+a=40
+b=20
+c=30
+
+if(a>b and a>c):
+    print(a)
+elif (b>a and b>c):
+    print(b)
+else:
+    print(c)
+
+#####################
+
 
 9.Calculate the average grade from a list of student scores
+std_score=[54,45,65,67,23,96]
+average= sum(std_score) / len(std_score)
+print("Average:", average)
+
+#####################
 
 10.Count how many students passed (score ≥ 40) and failed
 
