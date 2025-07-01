@@ -1,0 +1,121 @@
+#####################
+1.Print numbers from 1 to 10.
+a=list(range(1,10))
+print(a)
+
+#####################
+
+
+2.Print the multiplication table of a given number (e.g., 7).
+num=7
+for i in range(1,10):
+    print(f"{num} * {i} = {num*i}")
+
+#####################
+
+
+3.Print all even numbers between 1 and 50.
+for i in range(1,50):
+    if(i%2==0):
+        print("Even num:", i)
+
+#####################
+
+4.Calculate the sum of numbers from 1 to 100.
+total=0
+for i in range(1,100):
+    total+=i
+print("Sum:", total)
+
+#####################
+
+5.Reverse a given string using a loop.
+o="channveer"
+r=""
+r=(o[::-1])
+print(r)
+
+#####################
+
+
+6.Check if a number is prime using a loop
+if num>1:
+    for i in range(2,num):
+        if num%i==0:
+            print("Given number is Not Prime number")
+            break
+    else:
+         print("Given number is Prime number")
+else:
+    print("Not Prime")
+
+#####################
+
+7.Count the number of vowels in a given string
+count=0
+c="Channveer Mathpathi"
+vowels="aeiouAEIOU"
+for char in c:
+   if char in vowels:
+        count+=1
+print(count)
+
+#####################
+
+8.Find the largest number in a list using a loop
+a=40
+b=20
+c=30
+
+if(a>b and a>c):
+    print(a)
+elif (b>a and b>c):
+    print(b)
+else:
+    print(c)
+
+#####################
+
+
+9.Calculate the average grade from a list of student scores
+std_score=[54,45,65,67,23,96]
+average= sum(std_score) / len(std_score)
+print("Average:", average)
+
+#####################
+
+10.Count how many students passed (score ≥ 40) and failed
+scores = [85, 90, 78, 92, 88, 76, 95, 89, 35, 22, 39]
+passed = sum(1 for score in scores if score >= 40)
+failed = len(scores) - passed
+print("Number of students passed:", passed)
+print("Number of students failed:", failed)
+
+11.Assign letter grades based on score ranges using a loop:
+
+A: 90–100
+
+B: 80–89
+
+C: 70–79
+
+D: 60–69
+
+F: <60
+
+12.Find how many students scored above the class average
+
+#####################
+13.Find the highest and lowest grade in a list
+scores = [85, 90, 78, 92, 88, 76, 95, 89, 35, 22, 39]
+highest=max(scores)
+lowest=min(scores)
+print(highest)
+print(lowest)
+
+#####################
+
+14.Write a function calculate_average(grades) that takes a list of grades and returns the average
+
+15.Write a function count_pass_fail(grades) that returns how many students passed (score ≥ 40) and how many failed
+ '''
