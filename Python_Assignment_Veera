@@ -85,6 +85,11 @@ print("Average:", average)
 #####################
 
 10.Count how many students passed (score ≥ 40) and failed
+scores = [85, 90, 78, 92, 88, 76, 95, 89, 35, 22, 39]
+passed = sum(1 for score in scores if score >= 40)
+failed = len(scores) - passed
+print("Number of students passed:", passed)
+print("Number of students failed:", failed)
 
 11.Assign letter grades based on score ranges using a loop:
 
@@ -100,7 +105,15 @@ F: <60
 
 12.Find how many students scored above the class average
 
+#####################
 13.Find the highest and lowest grade in a list
+scores = [85, 90, 78, 92, 88, 76, 95, 89, 35, 22, 39]
+highest=max(scores)
+lowest=min(scores)
+print(highest)
+print(lowest)
+
+#####################
 
 14.Write a function calculate_average(grades) that takes a list of grades and returns the average
 
